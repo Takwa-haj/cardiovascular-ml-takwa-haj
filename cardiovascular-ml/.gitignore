@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Conda
+*.conda
+conda-env/
+
+# Data files (large — download instructions in README)
+data/*.csv
+data/*.xlsx
+data/*.zip
+data/*.parquet
+!data/README_DATA.md
+
+# Generated images (created by notebooks)
+data/*.png
+data/*.jpg
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model artifacts (too large for git)
+*.pkl
+*.joblib
+*.h5
+models/

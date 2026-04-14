@@ -109,4 +109,4 @@ def error_analysis(y_test, y_pred, X_test: pd.DataFrame) -> None:
     print(f"  False Negative Rate : {fn_rate:.2%}  (missed CVD)")
     print(f"  False Positive Rate : {fp_rate:.2%}  (false alarms)")
     print(f"{'='*45}")
-    print(f"\n  ℹ️  In clinical use, minimize FN Rate (missing CVD is dangerous)")
+    print(f"\n  ℹ!!  In clinical use, minimize FN Rate (missing CVD is dangerous)")
